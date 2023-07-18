@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-coder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-sass": "nodemon -e scss -x  \"npm run build-sass\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodri-olivares/preentregaolivares.git"
+  },
+  "author": "rodriolivares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodri-olivares/preentregaolivares/issues"
+  },
+  "homepage": "https://github.com/rodri-olivares/preentregaolivares#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
