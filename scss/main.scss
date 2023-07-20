@@ -1,0 +1,21 @@
+// importamos archivos carpeta base
+@import "./base/reset";
+@import "./base/typo";
+// importamos archivos carpeta components
+@import "./components/buttons";
+@import "./components/carousel";
+// importamos archivos carpeta layout
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/nav";
+// importamos archivos carpeta utilities
+@import "./utilities/functions";
+@import "./utilities/mixins";
+@import "./utilities/variables";
+// importamos archivos carpeta views
+@import "./views/contacto";
+@import "./views/planesyprecios";
+@import "./views/servicios";
+@import "./views/sobremi";
+@import "./views/index";

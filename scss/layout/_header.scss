@@ -1,0 +1,16 @@
+header {
+    .header__navbar {
+        background: rgb(219, 87, 255);
+        background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121848739496) 0%, rgba(219, 87, 255, 0.711922268907563) 50%, rgba(219, 87, 255, 0.7035189075630253) 96%);
+        &__logo{
+            height: 50px;
+            width: 50px;
+        }
+        &__brand{
+            color: white !important;
+            font-weight: bold;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2rem;
+        }
+    }
+}

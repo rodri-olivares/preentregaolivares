@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./assets/images/lavanda2.ico" type="image/x-icon">
+    <title>Personal trainer</title>
+</head>
+
+<body>
+    <!-- desarrollo header -->
+
+        <header>
+          <!-- aqui introducimos componente navbar de bootstrap -->
+          <nav class="navbar navbar-expand-lg header__navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand header__navbar__brand" href="#"><img class="header__navbar__logo" src="./assets/images/lavanda2.ico" alt="Logo"> Lara Poblete</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-white fw-semibold" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fw-semibold" aria-current="page" href="#">Sobre mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fw-semibold" aria-current="page" href="#">Servicios</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link text-white fw-semibold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                      Planes y precios
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Asesoría nutricional</a></li>
+                      <li><a class="dropdown-item" href="#">Asesoría física</a></li>
+                      <li><a class="dropdown-item" href="#">Plan personal trainer</a></li>
+                    </ul>
+                    <li class="nav-item">
+                      <a class="nav-link text-white fw-semibold" aria-current="page" href="#">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!-- aqui finaliza componente navbar -->
+        </header>
+    <main>
+<!-- aqui introducimos componente carousel de bootstrap -->
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/images/nutricion-deportiva.webp" class="d-block w-100 imgslider" alt="...">
+      <div class="carousel-caption d-none d-md-block texto__slider">
+        <h5>Asistencia nutricional</h5>
+        <p>Obtené el mejor plan alimenticio diseñado específicamente para vos</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/images/840_560.webp" class="d-block w-100 imgslider" alt="...">
+      <div class="carousel-caption d-none d-md-block texto__slider">
+        <h5>Asistencia deportiva</h5>
+        <p>Obtené la mejor asesoría online para tus entrenamientos</p>
+      </div>
+    </div>
+    <div class="carousel-item texto__slider">
+      <img src="./assets/images/personal trainer.webp" class="d-block w-100 imgslider" alt="...">
+      <div class="carousel-caption d-none d-md-block texto__slider">
+        <h5>Personal Trainer</h5>
+        <p>¡Entrená conmigo y llevá tu entrenamiento al siguiente nivel!</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+<!-- aqui finaliza componente carousel -->
+
+<section class="">
+
+</section>
+    </main>
+    <footer>
+
+    </footer>
+    <!-- importamos bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
