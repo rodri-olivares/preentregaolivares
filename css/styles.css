@@ -57,4 +57,22 @@ header .header__navbar__brand {
   font-size: 2rem;
 }
 
+.sobremi {
+  text-align: justify;
+  line-height: 2em;
+}
+.sobremi__titulo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 20px;
+  background: rgb(219, 87, 255);
+  background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121849) 0%, rgba(219, 87, 255, 0.6895133053) 50%, rgba(219, 87, 255, 0.7035189076) 96%);
+}
+.sobremi__parrafo {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
