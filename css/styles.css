@@ -29,6 +29,13 @@
   font-weight: 700;
 }
 
+.card__planesyprecios__boton {
+  background-color: #df37df;
+  border-radius: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
 .imgslider {
   height: 600px;
 }
@@ -49,12 +56,60 @@
   font-family: "Kanit", sans-serif;
 }
 
-.card {
+.card__servicios {
   background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121849) 0%, rgba(219, 87, 255, 0.7119222689) 50%, rgba(219, 87, 255, 0.7035189076) 96%);
+}
+.card__servicios__titulo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.card__servicios__texto {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+.card__planesyprecios {
+  background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121849) 0%, rgba(219, 87, 255, 0.7119222689) 50%, rgba(219, 87, 255, 0.7035189076) 96%);
+}
+.card__planesyprecios__item {
+  background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121849) 0%, rgba(219, 87, 255, 0.7119222689) 50%, rgba(219, 87, 255, 0.7035189076) 96%);
+  color: white;
+}
+
+.footer {
+  background: rgb(164, 5, 157);
+  background: linear-gradient(117deg, rgba(164, 5, 157, 0.82) 0%, rgb(164, 5, 157) 50%, rgb(164, 5, 157) 96%);
+}
+.footer__logo {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: white !important;
+}
+.footer__tagstitulo {
+  font-family: "Kanit", sans-serif;
+}
+.footer__tags {
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 2em;
+  font-family: "Kanit", sans-serif;
+  background: rgb(25, 23, 25);
+  background: linear-gradient(117deg, rgba(25, 23, 25, 0.8883928571) 0%, rgb(25, 23, 25) 50%, rgba(25, 23, 25, 0.9276085434) 96%);
+  display: inline-block;
+  border-radius: 20px;
+}
+.footer__redes {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
 }
 
 header .header__navbar {
-  background: rgb(219, 87, 255);
+  background: rgb(198, 39, 241);
   background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121849) 0%, rgba(219, 87, 255, 0.7119222689) 50%, rgba(219, 87, 255, 0.7035189076) 96%);
 }
 header .header__navbar__logo {
@@ -63,9 +118,17 @@ header .header__navbar__logo {
 }
 header .header__navbar__brand {
   color: white !important;
-  font-weight: bold;
+  font-weight: bolder;
   font-family: "Dancing Script", cursive;
-  font-size: 2rem;
+  font-size: 2.5rem;
+}
+
+.planesyprecios__titulo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 20px;
+  background: rgb(255, 110, 223);
 }
 
 .servicios__titulo {
@@ -73,8 +136,7 @@ header .header__navbar__brand {
   font-weight: bold;
   display: inline-block;
   border-radius: 20px;
-  background: rgb(219, 87, 255);
-  background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121849) 0%, rgba(219, 87, 255, 0.6895133053) 50%, rgba(219, 87, 255, 0.7035189076) 96%);
+  background: rgb(255, 110, 223);
 }
 
 .contenedor__cards {

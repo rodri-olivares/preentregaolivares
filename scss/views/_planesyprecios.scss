@@ -1,0 +1,9 @@
+// importamos mixin tagsfooter
+@import "../utilities/mixins";
+// importamos archivo variables
+@import "../utilities/variables";
+.planesyprecios{
+    &__titulo{
+@include tituloseccion;
+    }
+}

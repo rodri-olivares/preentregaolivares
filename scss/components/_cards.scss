@@ -1,3 +1,23 @@
-.card{
-    background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121848739496) 0%, rgba(219, 87, 255, 0.711922268907563) 50%, rgba(219, 87, 255, 0.7035189075630253) 96%);
+// importamos mixins
+@import "../utilities/mixins";
+// importamos archivo variables
+@import "../utilities/variables";
+.card__servicios{
+    background: $backgroundgradient-cards;
+    &__titulo{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: white;
+    }
+    &__texto{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+    }
+}
+.card__planesyprecios{
+    background: $backgroundgradient-cards;
+    &__item{
+        background: $backgroundgradient-cards;
+        color: white;
+    }
 }

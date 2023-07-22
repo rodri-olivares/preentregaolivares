@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="shortcut icon" href="../assets/images/lavanda2.ico" type="image/x-icon">
+  <title>Planes y precios</title>
+</head>
+
+<body>
+  <!-- desarrollo header -->
+
+  <header>
+    <!-- aqui introducimos componente navbar de bootstrap -->
+    <nav class="navbar navbar-expand-lg header__navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand header__navbar__brand" href="#"><img class="header__navbar__logo"
+            src="../assets/images/lavanda2.ico" alt="Logo"> Lara Poblete</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white fw-semibold" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-semibold" aria-current="page" href="./sobremi.html">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-semibold" aria-current="page" href="./servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-white fw-semibold dropdown-toggle" href="./planesyprecios.html" role="button"
+                data-bs-toggle="dropdown" aria-expanded="true">
+                Planes y precios
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./planesyprecios.html">Asesoría nutricional</a></li>
+                <li><a class="dropdown-item" href="./planesyprecios.html">Asesoría física</a></li>
+                <li><a class="dropdown-item" href="./planesyprecios.html">Plan personal trainer</a></li>
+              </ul>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-semibold" aria-current="page" href="./contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- aqui finaliza componente navbar -->
+  </header>
+  <!-- fin de header comienzo de main -->
+  <main class="p-3">
+    <!-- Sección "Planes y Precios" -->
+    <section class="planesyprecios text-center">
+      <h2 class="planesyprecios__titulo text-center text-white my-3 p-2">Planes y Precios</h2>
+
+      <!-- Subsección "planes de entrenamiento" -->
+      <section class="planesdeentrenamiento">
+        <h3>Planes de entrenamiento</h3>
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-md-4 justify-content-center d-flex my-2">
+            <div class="card card__planesyprecios" style="width: 18rem;">
+              <img src="../assets/images/planhipertrofia.webp" class="card-img-top" alt="..." height="200px">
+              <div class="card-body">
+                <h5 class="card-title card__planesyprecios__titulo">Plan hipertrofia</h5>
+                <p class="card-text card__planesyprecios__texto">Programa de entrenamiento con ejercicios de musculación para aumentar masa muscular y volumen corporal.
+                </p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item card__planesyprecios__item">Precio: $3500</li>
+              </ul>
+              <div class="card-body">
+                <button class="btn card__planesyprecios__boton text-white type="submit">Contratar</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-md-4 justify-content-center d-flex my-2">
+            <div class="card card__planesyprecios" style="width: 18rem;">
+              <img src="../assets/images/plandefinicion.webp" class="card-img-top" alt="..." height="200px">
+              <div class="card-body">
+                <h5 class="card-title card__planesyprecios__titulo">Plan definición</h5>
+                <p class="card-text card__planesyprecios__texto">Programa de entrenamiento y dieta para reducir grasa corporal y resaltar la musculatura definida.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item card__planesyprecios__item">Precio: $3500</li>
+              </ul>
+              <div class="card-body">
+                <button class="btn card__planesyprecios__boton text-white" type="submit">Contratar</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-md-4 justify-content-center d-flex my-2">
+            <div class="card card__planesyprecios" style="width: 18rem;">
+              <img src="../assets/images/planfuerza.webp" class="card-img-top" alt="..." height="200px">
+              <div class="card-body">
+                <h5 class="card-title card__planesyprecios__titulo">Plan fuerza</h5>
+                <p class="card-text card__planesyprecios__texto">Programa de entrenamiento enfocado en aumentar la capacidad de levantamiento de peso y fuerza muscular.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item card__planesyprecios__item">Precio: $3500</li>
+              </ul>
+              <div class="card-body">
+                <button class="btn card__planesyprecios__boton text-white" type="submit">Contratar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Subsección "planes nutricionales" -->
+      <section class="planesnutricionales">
+        <h3>Planes nutricionales</h3>
+        <div class="row">
+          <!-- Card 4 -->
+          <div class="col-md-4 justify-content-center d-flex my-2">
+            <div class="card card__planesyprecios" style="width: 18rem;">
+              <img src="../assets/images/dietasuperavit.webp" class="card-img-top" alt="..." height="200px">
+              <div class="card-body">
+                <h5 class="card-title card__planesyprecios__titulo">Plan superávit calórico</h5>
+                <p class="card-text card__planesyprecios__texto">Dieta diseñada para consumir más calorías de las que se queman, favoreciendo el aumento de masa muscular.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item card__planesyprecios__item">Precio: $4000</li>
+              </ul>
+              <div class="card-body">
+                <button class="btn card__planesyprecios__boton text-white" type="submit">Contratar</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-md-4 justify-content-center d-flex my-2">
+            <div class="card card__planesyprecios" style="width: 18rem;">
+              <img src="../assets/images/dietadeficit.webp" class="card-img-top" alt="..." height="200px">
+              <div class="card-body">
+                <h5 class="card-title card__planesyprecios__titulo">Plan déficit calórico</h5>
+                <p class="card-text card__planesyprecios__texto">Dieta diseñada para consumir menos calorías de las que se queman, favoreciendo la pérdida de peso</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item card__planesyprecios__item">Precio: $4000</li>
+              </ul>
+              <div class="card-body">
+                <button class="btn card__planesyprecios__boton text-white" type="submit">Contratar</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col-md-4 justify-content-center d-flex my-2">
+            <div class="card card__planesyprecios" style="width: 18rem;">
+              <img src="../assets/images/dietavegetariana.webp" class="card-img-top" alt="..." height="200px">
+              <div class="card-body">
+                <h5 class="card-title card__planesyprecios__titulo">Plan vegetariano</h5>
+                <p class="card-text card__planesyprecios__texto">Dieta rica en proteínas vegetales y calorías para apoyar el crecimiento muscular y el entrenamiento.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item card__planesyprecios__item">Precio: $4000</li>               
+              </ul>
+              <div class="card-body">
+                <button class="btn card__planesyprecios__boton text-white" type="submit">Contratar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <!-- fin del main comienzo del footer -->
+  <footer class="footer text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <!-- Sección 1: Logo -->
+
+          <a class="footer__logo" href="#"><img class="img-fluid" src="../assets/images/lavanda2.ico" alt="Logo"
+              width="40px" height="40px"> Lara Poblete</a>
+        </div>
+        <div class="col-md-4 mb-3">
+          <!-- Sección 2: Tags -->
+          <h4 class="footer__tagstitulo">Tags</h4>
+          <ul class="list-unstyled">
+            <li class="my-1"><a class="footer__tags text-white-50 p-1" href="#">#BuenaVida</a></li>
+            <li class="my-1"><a class="footer__tags text-white-50 p-1" href="#">#Ejercicio</a></li>
+            <li class="my-1"><a class="footer__tags text-white-50 p-1" href="#">#LifeStyle</a></li>
+            <li class="my-1"><a class="footer__tags text-white-50 p-1" href="#">#Dieta</a></li>
+            <li class="my-1"><a class="footer__tags text-white-50 p-1" href="#">#Gimnasio</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-3">
+          <!-- Sección 3: Redes sociales -->
+          <h4 class="footer_redestitulo">Redes Sociales</h4>
+          <ul class="list-unstyled">
+            <li><a class="footer__redes text-white href=" href="#" target="_blank"><i class="bi bi-facebook"></i>
+                Facebook</a></li>
+            <li><a class="footer__redes text-white href=" href="#" target="_blank"><i class="bi bi-twitter"></i>
+                Twitter</a></li>
+            <li><a class="footer__redes text-white href=" href="#" target="_blank"><i class="bi bi-instagram"></i>
+                Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-center">Todos los derechos reservados &copy; 2023 Lara Poblete.</p>
+    </div>
+  </footer>
+  <!-- importamos bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
