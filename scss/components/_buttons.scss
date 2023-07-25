@@ -2,27 +2,49 @@
 @import "../utilities/mixins";
 // importamos archivo variables
 @import "../utilities/variables";
+
 // boton toggler navbar
-.navbar-toggler{
+.navbar-toggler {
     color: #f58df5;
     background-color: rgba(255, 255, 255, 0.15);
-    &-icon{
+
+    &-icon {
         color: white;
     }
 }
-.dropdown-menu{
+// boton buscar navbar
+.header__navbar__botonbuscar{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    border-color: rgb(234 127 216);
+    border-width: 2px;
     background-color: #f58df5;
-    .dropdown-item{
-       color: white;
-       font-size: 1rem;
-       font-weight:500;
+    color: white;
+}
+.dropdown-menu {
+    background-color: #f58df5;
+
+    .dropdown-item {
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
     }
 }
+
 // boton card servicios
-.btn__card__Servicios{
+.btn__card__Servicios {
     @include botonescards;
 }
+
 // boton card planes y precios
-.card__planesyprecios__boton{
+.card__planesyprecios__boton {
     @include botonescards;
+}
+
+// boton formulario contacto
+.contacto__formulario__boton {
+    background-color: rgb(255 110 223);
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
 }

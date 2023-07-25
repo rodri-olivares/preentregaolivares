@@ -1,23 +1,29 @@
 @mixin tagsfooter {
-    list-style-type: none;
-        text-decoration: none;
-        line-height: 2em;
-        font-family: 'Kanit', sans-serif;
-        background: rgb(25, 23, 25);
-        background: linear-gradient(117deg, rgba(25, 23, 25, 0.8883928571428571) 0%, rgba(25, 23, 25, 1) 50%, rgba(25, 23, 25, 0.927608543417367) 96%);
-        display: inline-block;
-        border-radius: 20px;
-  }
-  @mixin tituloseccion {
-    font-family: 'Open Sans', sans-serif;
-        font-weight: bold;
-        display: inline-block;
-        border-radius:20px;
-        background: rgb(255 110 223);
-  }
-  @mixin botonescards {
-    background-color: #df37df;
-    border-radius: 20px;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-  }
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 2em;
+  font-family: 'Kanit', sans-serif;
+  background: rgb(25, 23, 25);
+  background: linear-gradient(117deg, rgba(25, 23, 25, 0.8883928571428571) 0%, rgba(25, 23, 25, 1) 50%, rgba(25, 23, 25, 0.927608543417367) 96%);
+  display: inline-block;
+  border-radius: 20px;
+}
+
+@mixin tituloseccion {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 20px;
+  background: rgb(255 110 223);
+}
+@mixin botonescards {
+  background-color: #df37df;
+  border-radius: 20px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+@mixin formulario {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  border-color: rgb(255 110 223) !important;
+}

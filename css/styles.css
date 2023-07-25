@@ -13,6 +13,15 @@
   color: white;
 }
 
+.header__navbar__botonbuscar {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  border-color: rgb(234, 127, 216);
+  border-width: 2px;
+  background-color: #f58df5;
+  color: white;
+}
+
 .dropdown-menu {
   background-color: #f58df5;
 }
@@ -31,6 +40,13 @@
 
 .card__planesyprecios__boton {
   background-color: #df37df;
+  border-radius: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.contacto__formulario__boton {
+  background-color: rgb(255, 110, 223);
   border-radius: 20px;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
@@ -123,6 +139,45 @@ header .header__navbar__brand {
   font-size: 2.5rem;
 }
 
+.contacto__titulo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 20px;
+  background: rgb(255, 110, 223);
+}
+.contacto__formulario__titulo {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  border-color: rgb(255, 110, 223) !important;
+}
+.contacto__formulario__email {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  border-color: rgb(255, 110, 223) !important;
+}
+.contacto__formulario__telefono {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  border-color: rgb(255, 110, 223) !important;
+}
+.contacto__formulario__mensaje {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  border-color: rgb(255, 110, 223) !important;
+}
+.contacto__imagen__titulo {
+  font-family: "Open Sans", sans-serif;
+}
+
+.agradecimiento__titulo {
+  font-family: "Open Sans", sans-serif;
+}
+.agradecimiento__Texto {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
 .planesyprecios__titulo {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
@@ -152,8 +207,7 @@ header .header__navbar__brand {
   font-weight: bold;
   display: inline-block;
   border-radius: 20px;
-  background: rgb(219, 87, 255);
-  background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121849) 0%, rgba(219, 87, 255, 0.6895133053) 50%, rgba(219, 87, 255, 0.7035189076) 96%);
+  background: rgb(255, 110, 223);
 }
 .sobremi__parrafo {
   font-family: "Kanit", sans-serif;
