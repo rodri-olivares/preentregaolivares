@@ -1,0 +1,30 @@
+// importamos mixin tagsfooter
+@import "../utilities/mixins";
+// importamos archivo variables
+@import "../utilities/variables";
+.sobremi{
+    text-align: justify;
+    line-height: 2em;
+    &__titulo{
+        @include tituloseccion
+    }
+    &__parrafo{
+        font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    background: rgb(255,110,223);
+background: linear-gradient(117deg, rgba(255,110,223,0.5494572829131652) 0%, rgba(255,110,223,0.55) 50%, rgba(255,110,223,0.55) 96%);
+border-radius: 10px;
+    }
+    &__imagen{
+        border-radius: 10px;
+    }
+}
+.miexperiencia{
+    &__titulo{
+        @include tituloseccion
+    }
+    &__accordion{
+        color: rgb(255,110,223);
+    }
+}

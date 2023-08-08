@@ -1,3 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@400;500;600;700&family=Eagle+Lake&family=Kanit:ital,wght@0,300;0,400;0,500;1,400;1,500&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Ultra&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.navbar-toggler {
+  color: #f58df5;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.navbar-toggler-icon {
+  color: white;
+}
+
+.header__navbar__botonbuscar {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  border-color: rgb(234, 127, 216);
+  border-width: 2px;
+  background-color: #f58df5;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #f58df5;
+}
+.dropdown-menu .dropdown-item {
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.btn__card__Servicios {
+  background-color: #df37df;
+  border-radius: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn__card__Servicios::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.btn__card__Servicios:hover {
+  background-color: #a80c93;
+}
+
+.btn__card__Servicios:hover::before {
+  top: 0;
+  opacity: 1;
+}
+
+.card__planesyprecios__boton {
+  background-color: #df37df;
+  border-radius: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.contacto__formulario__boton {
+  background-color: rgb(255, 110, 223);
+  border-radius: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}
+
+.imgslider {
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.texto__slider {
+  background: rgb(219, 87, 255);
+  background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121849) 0%, rgba(219, 87, 255, 0.6895133053) 50%, rgba(219, 87, 255, 0.7035189076) 96%);
+  border-radius: 40px;
+}
+.texto__slider h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Kanit", sans-serif;
+}
+.texto__slider p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Kanit", sans-serif;
+}
+
+.card__servicios {
+  background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121849) 0%, rgba(219, 87, 255, 0.7119222689) 50%, rgba(219, 87, 255, 0.7035189076) 96%);
+}
+.card__servicios__titulo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+.card__servicios__texto {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+.card__planesyprecios {
+  background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121849) 0%, rgba(219, 87, 255, 0.7119222689) 50%, rgba(219, 87, 255, 0.7035189076) 96%);
+}
+.card__planesyprecios__item {
+  background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121849) 0%, rgba(219, 87, 255, 0.7119222689) 50%, rgba(219, 87, 255, 0.7035189076) 96%);
+  color: white;
+}
+
+.accordion {
+  --bs-accordion-color: var(--bs-body-color);
+  --bs-accordion-bg: var(--bs-body-bg);
+  --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
+  --bs-accordion-border-color: var(--bs-border-color);
+  --bs-accordion-border-width: var(--bs-border-width);
+  --bs-accordion-border-radius: var(--bs-border-radius);
+  --bs-accordion-inner-border-radius: calc(var(--bs-border-radius) - (var(--bs-border-width)));
+  --bs-accordion-btn-padding-x: 1.25rem;
+  --bs-accordion-btn-padding-y: 1rem;
+  --bs-accordion-btn-color: var(--bs-body-color);
+  --bs-accordion-btn-bg: rgb(255, 110, 223);
+  --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="%23212529"%3e%3cpath fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/%3e%3c/svg%3e);
+  --bs-accordion-btn-icon-width: 1.25rem;
+  --bs-accordion-btn-icon-transform: rotate(-180deg);
+  --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+  --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="%23052c65"%3e%3cpath fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/%3e%3c/svg%3e);
+  --bs-accordion-btn-focus-border-color: #86b7fe;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgb(207 13 253 / 97%)
+  --bs-accordion-body-padding-x: 1.25rem;
+  --bs-accordion-body-padding-y: 1rem;
+  --bs-accordion-active-color: var(--bs-primary-text-emphasis);
+  --bs-accordion-active-bg: rgb(164, 5, 157);
+}
+
+.footer {
+  background: rgb(164, 5, 157);
+  background: linear-gradient(117deg, rgba(164, 5, 157, 0.82) 0%, rgb(164, 5, 157) 50%, rgb(164, 5, 157) 96%);
+}
+.footer__logo {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: white !important;
+}
+.footer__tagstitulo {
+  font-family: "Kanit", sans-serif;
+}
+.footer__tags {
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 2em;
+  font-family: "Kanit", sans-serif;
+  background: rgb(25, 23, 25);
+  background: linear-gradient(117deg, rgba(25, 23, 25, 0.8883928571) 0%, rgb(25, 23, 25) 50%, rgba(25, 23, 25, 0.9276085434) 96%);
+  display: inline-block;
+  border-radius: 20px;
+}
+.footer__redes {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+}
+
+header .header__navbar {
+  background: rgb(198, 39, 241);
+  background: linear-gradient(117deg, rgba(219, 87, 255, 0.6867121849) 0%, rgba(219, 87, 255, 0.7119222689) 50%, rgba(219, 87, 255, 0.7035189076) 96%);
+}
+header .header__navbar__logo {
+  height: 50px;
+  width: 50px;
+}
+header .header__navbar__brand {
+  color: white !important;
+  font-weight: bolder;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+}
+
+.contacto__titulo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 20px;
+  background: rgb(255, 110, 223);
+}
+.contacto__formulario__titulo {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  border-color: rgb(255, 110, 223) !important;
+}
+.contacto__formulario__email {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  border-color: rgb(255, 110, 223) !important;
+}
+.contacto__formulario__telefono {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  border-color: rgb(255, 110, 223) !important;
+}
+.contacto__formulario__mensaje {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+  border-color: rgb(255, 110, 223) !important;
+}
+.contacto__imagen__titulo {
+  font-family: "Open Sans", sans-serif;
+}
+
+.agradecimiento__titulo {
+  font-family: "Open Sans", sans-serif;
+}
+.agradecimiento__Texto {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.planesyprecios__titulo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 20px;
+  background: rgb(255, 110, 223);
+}
+
+.servicios__titulo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 20px;
+  background: rgb(255, 110, 223);
+}
+
+.contenedor__cards {
+  display: flex;
+}
+
+.sobremi {
+  text-align: justify;
+  line-height: 2em;
+}
+.sobremi__titulo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 20px;
+  background: rgb(255, 110, 223);
+}
+.sobremi__parrafo {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  background: rgb(255, 110, 223);
+  background: linear-gradient(117deg, rgba(255, 110, 223, 0.5494572829) 0%, rgba(255, 110, 223, 0.55) 50%, rgba(255, 110, 223, 0.55) 96%);
+  border-radius: 10px;
+}
+.sobremi__imagen {
+  border-radius: 10px;
+}
+
+.miexperiencia__titulo {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 20px;
+  background: rgb(255, 110, 223);
+}
+.miexperiencia__accordion {
+  color: rgb(255, 110, 223);
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,35 @@
+// importamos mixin tagsfooter
+@import "../utilities/mixins";
+// importamos archivo variables
+@import "../utilities/variables";
+.contacto {
+    &__titulo {
+        @include tituloseccion;
+    }
+    &__formulario {
+        &__titulo {
+            @include formulario
+        }
+        &__email{
+            @include formulario
+        }
+        &__telefono{
+            @include formulario
+        }
+        &__mensaje{
+            @include formulario
+        }
+    }
+    &__imagen__titulo{
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+.agradecimiento{
+    &__titulo{
+        font-family: 'Open Sans', sans-serif;
+    }
+    &__Texto{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+    }
+}

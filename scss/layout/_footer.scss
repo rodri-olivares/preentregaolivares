@@ -1,0 +1,27 @@
+// importamos mixins
+@import "../utilities/mixins";
+// importamos archivo variables
+@import "../utilities/variables";
+.footer {
+    background: $background-footer;
+    background: $backgroundgradient-footer;
+    &__logo{
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Dancing Script', cursive;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        color: white !important;    
+    }
+    &__tagstitulo{
+        font-family: 'Kanit', sans-serif;
+    }
+    &__tags {
+        @include tagsfooter;
+    }
+    &__redes{
+        list-style-type: none;
+        text-decoration: none;
+        font-family: 'Kanit', sans-serif;
+    }
+}

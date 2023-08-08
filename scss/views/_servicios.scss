@@ -1,0 +1,10 @@
+// importamos mixins
+@import "../utilities/mixins";
+// importamos archivo variables
+@import "../utilities/variables";
+.servicios__titulo{
+    @include tituloseccion;
+}
+.contenedor__cards{
+    display: flex;
+}

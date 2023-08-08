@@ -1,0 +1,18 @@
+// importamos archivo variables
+@import "../utilities/variables";
+header {
+    .header__navbar {
+        background: $background-navbar;
+        background: $backgroundgradient-navbar;
+        &__logo{
+            height: 50px;
+            width: 50px;
+        }
+        &__brand{
+            color: white !important;
+            font-weight: bolder;
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5rem;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+// importamos mixins
+@import "../utilities/mixins";
+// importamos archivo variables
+@import "../utilities/variables";
+.card__servicios{
+    background: $backgroundgradient-cards;
+    &__titulo{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        color: white;
+    }
+    &__texto{
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+    }
+}
+.card__planesyprecios{
+    background: $backgroundgradient-cards;
+    &__item{
+        background: $backgroundgradient-cards;
+        color: white;
+    }
+}
