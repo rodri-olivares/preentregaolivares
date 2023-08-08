@@ -78,6 +78,18 @@
   font-weight: 700;
 }
 
+.carousel__slide {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px; /* Ajusta la distancia desde la parte inferior */
+  left: 50%; /* Centra horizontalmente */
+  transform: translateX(-50%); /* Centra exactamente en el centro */
+}
+
 .imgslider {
   max-height: 600px;
   object-fit: cover;
